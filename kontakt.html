@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Sara Popović 06/24" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/kontakt.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <title>Slatki Raj &mdash; Kontakt</title>
+  </head>
+  <body>
+    <!--HEADER/NAV-->
+    <header class="header">
+      <a href="home.html"><img src="img/Logo.png" alt="logo" class="logo" /></a>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="my-nav-item nav-link"
+                  aria-current="page"
+                  href="home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="my-nav-item nav-link" href="o-nama.html">O nama</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="my-nav-item nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Katalog
+                </a>
+                <ul class="my-nav-item dropdown-menu">
+                  <li>
+                    <a
+                      class="my-nav-item-dropdown dropdown-item"
+                      href="torte.html"
+                      >Torte</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="my-nav-item-dropdown dropdown-item"
+                      href="kolaci.html"
+                      >Kolači</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="my-nav-item nav-link" href="kontakt.html">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- KONTAKT/LOKACIJA -->
+    <div class="space"></div>
+    <div class="white-section row responsive-row">
+      <div class="kontakt col-6 responsive-col">
+        <h2 class="section-title">Kontakt</h2>
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/slatki-raj-beograd.jpeg"
+                class="d-block w-60"
+                alt="Slatki Raj Beograd" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Jurija Gagarina 16, Delta City</h5>
+                <p>Slatki Raj Beograd</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/slatki-raj-podgorica.jpeg"
+                class="d-block w-60"
+                alt="Slatki Raj Podgorica" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>b.b. Cetinjski Put, Big Fashion</h5>
+                <p>Slatki Raj Podgorica</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/slatki-raj-zagreb.avif"
+                class="d-block w-60"
+                alt="Slatki Raj Zagreb" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Ul. Vice Vukova 6, Arena Center</h5>
+                <p>Slatki Raj Zagreb</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/slatki-raj-sarajevo.jpeg"
+                class="d-block w-60"
+                alt="Slatki Raj Zagreb" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Vrbanja 1, Sarajevo City Center</h5>
+                <p>Slatki Raj Sarajevo</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="kontakt-info">
+          <p><i class="bi bi-envelope-at"></i> slatkiraj@email.com</p>
+          <p><i class="bi bi-clock"></i> Svakim danom 10:00-22:00h</p>
+          <p><i class="bi bi-instagram"></i> @slatkiraj</p>
+          <p><i class="bi bi-facebook"></i> @slatkiraj</p>
+          <p><i class="bi bi-pinterest"></i> SlatkiRajTorteIKolaci</p>
+        </div>
+      </div>
+      <div class="col-6 lokacija-responsive">
+        <h2 class="section-title">Lokacije</h2>
+        <div class="row responsive-row">
+          <div class="col-6 responsive-col">
+            <div class="responsive-map">
+              <map>
+                <div class="lokacija">
+                  <p>
+                    <i class="bi bi-geo-alt"></i> Jurija Gagarina 16, Delta City
+                    Beograd
+                  </p>
+                  <a href="tel:+3811234567"
+                    ><i class="bi bi-telephone"></i> +381 12 34 567 89</a
+                  >
+                </div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.789506032748!2d20.402906976518008!3d44.80547827107085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6f8ffefc5f23%3A0xe336943db1696421!2z0KLQpiDQlNC10LvRgtCwINCh0LjRgtC4!5e0!3m2!1ssr!2srs!4v1733754914760!5m2!1ssr!2srs"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </map>
+            </div>
+            <div class="responsive-map">
+              <map>
+                <div class="lokacija">
+                  <p>
+                    <i class="bi bi-geo-alt"></i> b.b.Cetinjski Put, Big
+                    Fashion, Podgorica
+                  </p>
+                  <a href="tel:+3821234567"
+                    ><i class="bi bi-telephone"></i> +382 12 34 567 89</a
+                  >
+                </div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11778.235298907819!2d19.2355549!3d42.4371247!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134deb209025cddf%3A0x3910cf8ed4b00dc3!2z0JHQmNCTINCk0LXRiNC9INCf0L7QtNCz0L7RgNC40YbQsA!5e0!3m2!1ssr!2srs!4v1733835916442!5m2!1ssr!2srs"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </map>
+            </div>
+          </div>
+          <div class="col-6 responsive-col">
+            <div class="responsive-map">
+              <map>
+                <div class="lokacija">
+                  <p>
+                    <i class="bi bi-geo-alt"></i> Ul. Vice Vukova 6, Arena
+                    Center, Zagreb
+                  </p>
+                  <a href="tel:+3821234567"
+                    ><i class="bi bi-telephone"></i> +382 12 34 567 89</a
+                  >
+                </div>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44527.958125076984!2d15.8635022486328!3d45.77124269999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d43cb1e6d3ab%3A0x5dd46cb5740a20cb!2sArena%20Center!5e0!3m2!1ssr!2srs!4v1733836152275!5m2!1ssr!2srs"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe
+              ></map>
+            </div>
+            <div class="responsvie-map">
+              <map>
+                <div class="lokacija">
+                  <p>
+                    <i class="bi bi-geo-alt"></i> Vrbanja 1, Sarajevo City
+                    Center,Sarajevo
+                  </p>
+                  <a href="tel:+3821234567"
+                    ><i class="bi bi-telephone"></i> +387 12 34 567 89</a
+                  >
+                </div>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11508.082785729503!2d18.4081149!3d43.8553997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c8df25ac110b%3A0xb1cd13f8b38c755a!2z0KHQsNGA0LDRmNC10LLQviDQodC40YLQuCDQptC10L3RgtCw0YA!5e0!3m2!1ssr!2srs!4v1733836461112!5m2!1ssr!2srs"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </map>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="row responsive-row">
+      <div class="col-12 responsive-col">
+        <h2 class="section-title">Vaša najčešća pitanja</h2>
+        <div class="my-accordion accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne">
+                <p class="pitanje">Koje vrste kolača i torti nudite?</p>
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p class="odgovor">
+                  U našoj ponudi možete pronaći širok spektar kolača i torti
+                  prilagođenih različitim ukusima. Nudimo klasične kolače poput
+                  krempita, reform torti, i čokoladnih mus kolača, ali i
+                  moderne, kreativne kombinacije ukusa. Naše torte dolaze u
+                  različitim varijantama, uključujući voćne, čokoladne, oreo, i
+                  torte sa krem sirom. Osim toga, specijalizovani smo za torte
+                  po porudžbini, koje možete personalizovati za rođendane,
+                  venčanja, godišnjice i druge posebne prilike.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo">
+                <p class="pitanje">Da li pravite torte po narudžbini?</p>
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p class="odgovor">
+                  Da, pravimo unikatne torte po vašim željama i potrebama.
+                  Možete birati ukuse, oblik, veličinu i stil dekoracije. Naš
+                  tim će se potruditi da vaša torta izgleda i ima ukus baš onako
+                  kako ste zamislili. Imamo iskustvo u pravljenju torti za
+                  rođendane, venčanja, tematske proslave i druge specijalne
+                  događaje, a naše dekoracije se prilagođavaju svakoj prilici.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree">
+                <p class="pitanje">Koliko unapred treba da naručim tortu?</p>
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p class="odgovor">
+                  Da bismo osigurali najbolji kvalitet i pravovremenu isporuku,
+                  preporučujemo da naručite tortu što ranije. Za klasične
+                  porudžbine dovoljan je rok od 3-5 dana unapred, dok za veće
+                  ili složenije torte, poput svadbenih, molimo da nas
+                  kontaktirate najmanje 7-10 dana unapred. Ukoliko vam je torta
+                  potrebna u kraćem roku, slobodno nas kontaktirajte, pa ćemo
+                  učiniti sve što možemo da vam izađemo u susret.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour">
+                <p class="pitanje">Da li dostavljate torte i kolače?</p>
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p class="odgovor">
+                  Da, nudimo uslugu dostave na vašu adresu. Dostava je dostupna
+                  u okviru grada i okolnih mesta, a cene i uslovi zavise od
+                  udaljenosti. Molimo vas da nas kontaktirate prilikom
+                  narudžbine kako bismo precizirali detalje dostave i osigurali
+                  da sve stigne u savršenom stanju.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive">
+                <p class="pitanje">
+                  Da li nudite opcije za osobe sa posebnim prehrambenim
+                  potrebama?
+                </p>
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p class="odgovor">
+                  Da, nudimo uslugu dostave na vašu adresu. Dostava je dostupna
+                  u okviru grada i okolnih mesta, a cene i uslovi zavise od
+                  udaljenosti. Molimo vas da nas kontaktirate prilikom
+                  narudžbine kako bismo precizirali detalje dostave i osigurali
+                  da sve stigne u savršenom stanju.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="white-section">
+      <div class="row responsive-row">
+        <div class="col-6 responsive-col">
+          <img
+            src="img/torta-1.jpeg"
+            alt="Čokoladna torta"
+            class="cta-img img-fluid" />
+        </div>
+
+        <div class="col-6 responsive-col">
+          <h2 class="section-title">Jede vam se nešto slatko?</h2>
+          <p class="cta-text">
+            Nema ništa lepše od trenutka kada uživate u savršenom slatkom
+            zalogaju. Bilo da je reč o torti, kolaču ili nečemu posebno
+            pripremljenom za vas, u Slatkom Raju ćemo zadovoljiti vaše želje.
+          </p>
+          <p>Naručite već danas i prepustite se čaroliji ukusa!</p>
+          <form class="row g-3 m-4">
+            <div class="col-md-6">
+              <label for="ime" class="form-label">Ime i prezime</label>
+              <input
+                type="text"
+                class="input form-control"
+                id="ime"
+                placeholder="Milica Petrović"
+                required />
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input
+                type="email"
+                class="input form-control"
+                id="inputEmail"
+                placeholder="milica@email.com"
+                required />
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Adresa</label>
+              <input
+                type="text"
+                class="input form-control"
+                id="inputAddress"
+                placeholder="Ulica 123"
+                required />
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Grad</label>
+              <input
+                type="text"
+                class="input form-control"
+                id="inputCity"
+                placeholder="Beograd"
+                required />
+            </div>
+            <div class="col-md-6">
+              <label for="inputState" class="form-label">Država</label>
+              <select id="inputState" class="input form-select" required>
+                <option>Bosna i Hercegovina</option>
+                <option>Crna Gora</option>
+                <option>Srbija</option>
+                <option>Hrvatska</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label for="detalji">Detalji</label>
+              <textarea
+                id="detalji"
+                class="input form-control"
+                placeholder="Čokoladna torta , težine 2kg, ukrašena sa višnjama i belom ćokoladom."
+                required></textarea>
+            </div>
+            <div class="col-12">
+              <button
+                type="submit"
+                class="submit-btn color"
+                onclick="return EmailValidation();">
+                Pošalji
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="row text-center justify-content-center m-0">
+      <div class="d-none d-lg-block col-lg-4"></div>
+
+      <div class="col-12 col-lg-4 d-flex justify-content-center">
+        <div class="footer-card" style="width: 18rem">
+          <img src="img/Logo.png" class="logo-footer mx-auto" alt="logo" />
+          <div class="icon-section">
+            <a href="https://www.instagram.com"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="https://www.facebook.com"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://www.pinterest.com"
+              ><i class="bi bi-pinterest"></i
+            ></a>
+            <a href="mailto:slatkiraj@email.com"
+              ><i class="bi bi-envelope-at"></i
+            ></a>
+            <a href="kontakt.html"><i class="bi bi-whatsapp"></i></a>
+            <a href="kontakt.html"><i class="bi bi-telephone"></i></a>
+          </div>
+          <div class="card-body">
+            <a href="home.html" class="card-link my-nav-item">Home</a>
+            <a href="o-nama.html" class="card-link my-nav-item">O nama</a>
+            <a href="torte.html" class="card-link my-nav-item">Torte</a>
+            <a href="kolaci.html" class="card-link my-nav-item">Kolači</a>
+            <a href="kontakt.html" class="card-link my-nav-item">Kontakt</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-none d-lg-block col-lg-4"></div>
+    </footer>
+
+    <!-- JS SCRIPT -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/Validation.js"></script>
+  </body>
+</html>
