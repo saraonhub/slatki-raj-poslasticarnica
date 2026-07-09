@@ -48,3 +48,4 @@ Sajt je u potpunosti prilagođen svim uređajima (Mobile-First pristup):
 
 * **Ime i prezime:** Sara Popović
 * **Predmet:** Skript jezici za web programiranje
+* **Live Verzija Sajta (Netlify):** [slatkirajposlasticarnica.netlify.app](https://slatkirajposlasticarnica.netlify.app/home)
